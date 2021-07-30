@@ -87,7 +87,7 @@
     }
 
     //for index.html
-    if (window.location.pathname === '/C:/Users/User/Desktop/agency-lancer/index.html') {
+    if (window.location.pathname === '/agencylancer-website-clone/') {
         //Event: DOM Content Loaded
         document.addEventListener('DOMContentLoaded', () => {
             //set paid period 
@@ -164,8 +164,8 @@
     }
 
     //for index.html nad faq-page.html
-    if (window.location.pathname === '/C:/Users/User/Desktop/agency-lancer/index.html' || 
-        window.location.pathname === '/C:/Users/User/Desktop/agency-lancer/faq-page.html') {
+    if (window.location.pathname === '/agencylancer-website-clone/' || 
+        window.location.pathname === '/agencylancer-website-clone/faq-page.html') {
         //Event: Open / Close Mobile Navigation
         toggleBtn.addEventListener('click', toggleNav);
 
